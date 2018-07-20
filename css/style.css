@@ -944,19 +944,20 @@ label.label-net:hover {
 }
 
 .pagination-item {
+	margin-right: 10px;
+}
+
+.pagination-item a{
+	display: block;
 	min-width: 44px;
 	height: 44px;
 	border: 3px solid #eeeeee;
-	margin-right: 10px;
+	
 	line-height: 44px;
 	text-align: center;
 	vertical-align: middle;
 	background-color: #eeeeee;
 	border-radius: 3px;
-}
-
-.next-pagination-item {
-	width: 234px;
 }
 
 .pagination-item,
@@ -968,6 +969,23 @@ label.label-net:hover {
 	background-color: #eeeeee;
 }
 
+.pagination-item a:hover,
+.pagination-item a:focus,
+.next-pagination-item:hover,
+.next-pagination-item:focus {
+	background-color: #dfdfdf;
+	border-color: #dfdfdf;
+	
+}
+.pagination-item a:active,
+.next-pagination-item:active {
+	color: rgba(0, 0, 0, 0.3);
+	box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+.next-pagination-item {
+	width: 234px;
+}
 
 
 .pagination-item-current {
