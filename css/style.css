@@ -131,6 +131,10 @@ a {
 	background-color: #eeeeee;
 }
 
+.slider-input-radio {
+	display: none;
+}
+
 .features-list {
 	margin: 0;
 	padding: 0;
@@ -197,7 +201,6 @@ a {
 	transform: translateX(-50%);
 }
 
-
 .label-slider {
 	position: relative;
 	top: 20px;
@@ -241,7 +244,6 @@ a {
 .slider-input-radio[id="slide-3"]:checked  ~ .features-list .feature-item:nth-child(3) {
 	display: block;
 }
-
 
 .slider-input-radio:focus + .label-slider {
     outline: rgb(59, 153, 252) auto 5px;
