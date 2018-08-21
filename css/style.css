@@ -1493,14 +1493,14 @@ label.label-net:focus::before {
 }
 
 .pagination-item a{
-	display: block;
+	display: inline-block;
 	min-width: 50px;
 	height: 50px;
 	
 	
 	line-height: 44px;
 	text-align: center;
-	//vertical-align: middle;
+	vertical-align: middle;
 	
 	border-radius: 3px;
 	background-color: #eeeeee;
