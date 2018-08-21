@@ -1494,8 +1494,8 @@ label.label-net:focus::before {
 
 .pagination-item a{
 	display: inline-block;
-	min-width: 50px;
-	height: 50px;
+	min-width: 44px;
+	height: 44px;
 	
 	
 	line-height: 44px;
@@ -1504,6 +1504,7 @@ label.label-net:focus::before {
 	
 	border-radius: 3px;
 	background-color: #eeeeee;
+	border: 3px solid #eeeeee;
 }
 
 .pagination-item,
@@ -1535,7 +1536,7 @@ label.label-net:focus::before {
 .filter-btn:active {
 	color: rgba(0, 0, 0, 0.3);
 	
-	box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: -3px 3px rgba(0, 0, 0, 0.1) inset;
 }
 
 .next-pagination-item {
