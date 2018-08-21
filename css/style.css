@@ -1498,9 +1498,9 @@ label.label-net:focus::before {
 	height: 50px;
 	
 	
-	line-height: 44px;
+	line-height: 50px;
 	text-align: center;
-	vertical-align: middle;
+	//vertical-align: middle;
 	
 	border-radius: 3px;
 	background-color: #eeeeee;
